@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+    font-size: 45px;
+    padding: 20px;
+    border: 10px solid rgb(0, 0, 0);
+    width: 50%;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.main-grid {
+    display: grid;
+    grid-auto-flow: column;
+}
+h2 {
+    border: 10px solid rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+    background-color: gainsboro;
+    text-decoration-line: none;
+}
+a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+    font-size: 25px;
+}
+
+body {
+    background-color: rgb(134, 193, 235);
+    background-image: url(Ocean.jpg);
+}
